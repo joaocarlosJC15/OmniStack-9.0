@@ -5,7 +5,15 @@
   "repository": "https://github.com/joaocarlosJC15/OmniStack-9.0.git",
   "author": "João Carlos Alvim <jc15joaocarlos@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
