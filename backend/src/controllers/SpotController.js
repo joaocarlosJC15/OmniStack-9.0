@@ -2,7 +2,7 @@ const Spot = require('../models/Spot');
 const User = require('../models/User');
 
 module.exports = {
-    async index(req, res){s
+    async index(req, res){
         const { tech } = req.query;
 
         const spots = await Spot.find({ teachs: tech});
